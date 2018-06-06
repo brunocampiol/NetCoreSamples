@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSamples.Common", "NetCoreSamples.Common\NetCoreSamples.Common.csproj", "{F0F3F25F-5F85-4D34-B22F-82372EB2FF3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreSamples.Interfaces", "NetCoreSamples.Interfaces\NetCoreSamples.Interfaces.csproj", "{6ED5D468-F57F-4204-979E-973DB6EE043C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSamples.Interfaces", "NetCoreSamples.Interfaces\NetCoreSamples.Interfaces.csproj", "{6ED5D468-F57F-4204-979E-973DB6EE043C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreSamples.Tests", "NetCoreSamples.Tests\NetCoreSamples.Tests.csproj", "{A43BE716-257A-49D0-8887-A7F26CF58151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSamples.Tests", "NetCoreSamples.Tests\NetCoreSamples.Tests.csproj", "{A43BE716-257A-49D0-8887-A7F26CF58151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreSamples.WebApi", "NetCoreSamples.WebApi\NetCoreSamples.WebApi.csproj", "{C3DD22BB-96F6-421C-9AE4-C14777CC7787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A43BE716-257A-49D0-8887-A7F26CF58151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43BE716-257A-49D0-8887-A7F26CF58151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43BE716-257A-49D0-8887-A7F26CF58151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
