@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NetCoreSamples.Common\NetCoreSamples.Common.csproj" />
     <ProjectReference Include="..\NetCoreSamples.Interfaces\NetCoreSamples.Interfaces.csproj" />
+    <ProjectReference Include="..\NetCoreSamples.Security\NetCoreSamples.Security.csproj" />
   </ItemGroup>
 
 </Project>

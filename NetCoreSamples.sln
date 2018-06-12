@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSamples.Interfaces",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSamples.Tests", "NetCoreSamples.Tests\NetCoreSamples.Tests.csproj", "{A43BE716-257A-49D0-8887-A7F26CF58151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreSamples.WebApi", "NetCoreSamples.WebApi\NetCoreSamples.WebApi.csproj", "{C3DD22BB-96F6-421C-9AE4-C14777CC7787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSamples.WebApi", "NetCoreSamples.WebApi\NetCoreSamples.WebApi.csproj", "{C3DD22BB-96F6-421C-9AE4-C14777CC7787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreSamples.Security", "NetCoreSamples.Security\NetCoreSamples.Security.csproj", "{748E53D9-D9E2-453B-ACE1-2E61E813D735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3DD22BB-96F6-421C-9AE4-C14777CC7787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748E53D9-D9E2-453B-ACE1-2E61E813D735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748E53D9-D9E2-453B-ACE1-2E61E813D735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748E53D9-D9E2-453B-ACE1-2E61E813D735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748E53D9-D9E2-453B-ACE1-2E61E813D735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
