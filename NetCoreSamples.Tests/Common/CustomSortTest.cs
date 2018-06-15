@@ -59,7 +59,7 @@ namespace NetCoreSamples.Tests.Common
         public void TestCustomSort()
         {
             // Assamble
-            int numberOfCircles = 999999;
+            int numberOfCircles = 9999;
             List<Circle> circles = new List<Circle>();
             for (int i = 0; i < numberOfCircles; i++) circles.Add(GetRandomCircle());
 
@@ -80,7 +80,7 @@ namespace NetCoreSamples.Tests.Common
         public void TestCustomSort_Linq()
         {
             // Assamble
-            int numberOfCircles = 999999;
+            int numberOfCircles = 9999;
             List<Circle> circles = new List<Circle>();
             for (int i = 0; i < numberOfCircles; i++) circles.Add(GetRandomCircle());
 
