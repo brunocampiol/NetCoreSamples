@@ -59,11 +59,35 @@ namespace NetCoreSamples.Security.SymmetricEncryption
             return Convert.ToBase64String(outputBuffer);
         }
 
+        // Will decrypt to Unicode
         public string Decrypt(string encryptedText)
         {
             byte[] inputbuffer = Convert.FromBase64String(encryptedText);
             byte[] outputBuffer = encrypto.TransformFinalBlock(inputbuffer, 0, inputbuffer.Length);
             return Encoding.Unicode.GetString(outputBuffer);
+        }
+
+        // In-memory encryption
+        public byte[] Encrypt(byte[] data)
+        {
+            using (ICryptoTransform encryptor = algorithm.CreateEncryptor(key, iv))
+                return Crypt(data, encryptor);
+        }
+
+        // In-memory decryption
+        public byte[] Decrypt(byte[] data)
+        {
+            using (ICryptoTransform decryptor = algorithm.CreateDecryptor(key, iv))
+                return Crypt(data, decryptor);
+        }
+
+        // In-memory crypt
+        public byte[] Crypt(byte[] data, ICryptoTransform cryptor)
+        {
+            MemoryStream m = new MemoryStream();
+            using (Stream c = new CryptoStream(m, cryptor, CryptoStreamMode.Write))
+                c.Write(data, 0, data.Length);
+            return m.ToArray();
         }
     }
 }
